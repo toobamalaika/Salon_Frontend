@@ -1,0 +1,231 @@
+body, html {
+    height:auto;
+    width:100%;
+    font-size: 14px;
+    font-family: 'ABeeZee', sans-serif;
+    text-transform: capitalize;
+}
+body{
+    direction:1tr
+}
+.logosize {
+    height: 120px;
+    position: relative;
+}
+.navbar-light .navbar-brand {
+    color:rgb(158, 121, 152);
+    /* font-size: 20px; */
+    font-family: 'Pacifico', cursive;
+    font-weight: 500;
+}
+.logo-main{
+    top: 0;
+    /* position: absolute; */
+    height: 120px;
+}
+.navbar-expand-lg {
+    justify-content: space-between;
+}
+.img-fluid {
+    max-width: 243px;
+    height: 214px;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: rgb(158, 121, 152);
+    border-color: #795674;
+}
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.btn-secondary:focus, .btn-secondary.focus {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+  box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+}
+#section1 { 
+    background: url(images/parallax-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height: 100vh; /* 100% of viewport height */
+    margin: 0 auto; 
+    position: relative; 
+   
+}
+.pose-text
+{
+    font-family: 'Caveat', cursive;
+    font-size: 70px;
+    padding: 20px;
+    margin: auto 0;
+    /* text-align: center; */
+    margin-top: 25vh;
+    color: #fff;
+    font-weight: 900;
+}
+.sizenb{
+    font-weight: 600;
+    /* font-size: 10px !important; */
+   /* display: flex !important; */
+}
+.logosize a{
+    /* width: 2px!important;
+    height: 2px !important; */
+}
+.dropdown-menu{
+    font-size: 10px !important;
+}
+
+}
+.navbar navbar-expand-lg {
+    background-color: black !important;
+}
+
+#0ne{
+    color: purple;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+/* footer custom CSS */
+
+p{
+    color: #999;
+    line-height: 20px;
+   
+}
+h3{
+    color:#fff;
+    font-size:18px;
+    }
+    .footer-top{
+        background: #111;
+        padding: 90px 0;
+    }
+
+.segment-one h3{
+    font-family:'Courier New', Courier, monospace;
+    color:#fff;
+    letter-spacing: 1px;
+    margin:5px 0;
+}
+.segment-two h3{
+    font-family:'Courier New', Courier, monospace;
+    color:#fff;
+    text-transform:capitalize;
+}
+.segment-two h3:before{
+    content: '|';
+    color:#c65039;
+    padding-right: 10px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(158, 121, 152);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+    background: rgb(158, 121, 152);
+    border-radius: 5px;
+}
+.segment-two ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.segment-two ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    line-height:40px;
+}
+.segment-two ul li a{
+    color:#999;
+    text-decoration: none;
+}
+.segment-three h3{
+color:#fff;
+font-family: 'Courier New', Courier, monospace;
+text-transform: capitalize;
+}
+.segment-three h3:before{
+    content: '|';
+    color:#c65039;
+    padding-right: 10px;
+}
+.segment-three a{
+    background: #9e7998;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 30% 60%;
+}
+.segment-three a i{
+    font-size: 20px;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+.footer-bottom-text{
+    text-align: center;
+    background:#000;
+    line-height: 40px;
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.copyright-ayesha{
+    color: #9e7998;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.just_size li a{
+    font-size: 15px !important;
+}
+/* courosel custom css */
+.carousel-item active{
+width:100% !important;
+height:50%!important;
+
+}
+/* logo & intro */
+#intro{
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    
+}
+.int img{
+   width:250px;
+   height:200px;
+   background-color: pink;
+
+}
+.mov-text{
+    font-size: large;
+    color: #9e7998;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+.carousel-inner {
+    height: 550px;
+}
+.style-h1{
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fff;
+    background: #9e7998;
+    padding: 20px;
+    width: 90%;
+    margin: 1% 5%;
+    border-radius: 0px 50px;
+}
+.p-20{
+padding: 20px;
+}
